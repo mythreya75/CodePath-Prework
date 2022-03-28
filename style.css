@@ -1,0 +1,205 @@
+/******************************************************************************
+START Glitch hello-app default styles
+
+The styles in this section do some minimal CSS resets, set default fonts and 
+colors, and handle the layout for our footer and "Remix on Glitch" button. If
+you're new to CSS they may seem a little complicated, but you can scroll down
+to this section's matching END comment to see page-specific styles.
+******************************************************************************/
+
+/* 
+  The style rules specify elements by type and by attributes such as class and ID
+  Each section indicates an element or elements, then lists the style properties to apply
+  See if you can cross-reference the rules in this file with the elements in index.html
+*/
+
+/* Our default values set as CSS variables */
+:root {
+  --color-bg: slategrey;
+  --color-text-main: #999999;
+  --color-primary: #ffff00;
+}
+
+
+body {
+  background-color: var(--color-bg);
+}
+
+/* Very light scaling for our illustration */
+.title {
+  color: #eee9d7;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 100px;
+  margin:0px;
+  font-family: impact, sans-serif;
+  text-shadow: -5px -5px 0 #555555, 5px -5px 0 #555555, -5px 5px 0 #555555, 5px 5px 0 #555555;
+  text-align: left;
+  margin-left: 15px;
+  margin-bottom: 20px;
+}
+
+#menuWrapper {
+  background-color: var(--color-bg);
+}
+
+button {
+  border:0px;
+  border-radius: 70px;
+  transition: 100ms;
+  box-shadow: 0 9px #999999;
+  color: #eee9d7;
+  font-size: 80px;
+  font-family: lucida console, monospace;
+  font-weight: 400px;
+  margin: 10px;
+  position: relative;
+  text-align: center;
+}
+
+button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666666;
+  transform: translateY(4px);
+}
+
+button:hover {
+  color: #777777;
+}
+
+#mainButtonContainer {
+  background-color: var(--color-bg) ;
+  height: 500px;
+  margin-top: 30px;
+  padding: 12.5px
+}
+
+#secondaryButtonContainer {
+  background-color: var(--color-bg);
+  height: 125px;
+  flex-direction: row;
+  display: flex;
+  width: 22.75%;
+  align-items: center;
+  margin-left: 15px;
+  justify-content: space-between;
+  align-content: space-between;
+}
+
+.gameButton {
+  height: 200px;
+  width: 325px;
+}
+
+/*red*/
+#button1 {
+  background-color: #fc472e;
+}
+#button1:active, #button1.lit{
+  background-color:#fd8776;
+}
+#button2 {
+  background-color: #ff7f0c;
+}
+#button2:active, #button2.lit{
+  background-color:#ffab60;
+}
+#button3 {
+  background-color: #efd726;
+}
+#button3:active, #button3.lit{
+  background-color:#f6e77e;
+}
+#button4 {
+  background-color: #1bd972;
+}
+#button4:active, #button4.lit{
+  background-color:#52e997;
+}
+#button5 {
+  background-color: #229ede;
+}
+#button5:active, #button5.lit{
+  background-color: #6bbee9;
+}
+#button6 {
+  background-color: #7200c5;
+}
+#button6:active, #button6.lit{
+  background-color:#c387ff;
+}
+#button7 {
+  background-color: #f95dc4;
+}
+#button7:active, #button7.lit{
+  background-color:#fa7dcf;
+}
+#button8 {
+  background-color: #5e5e5e;
+}
+#button8:active, #button8.lit{
+  background-color:#c9c9c9;
+}
+
+
+#startButton, #stopButton { 
+  background-color: #eee9d7;
+  height: 100px;
+  width: 200px;
+  margin-left: 0px;
+  margin-right: 0px;
+  font-size: 35px;
+  color: #777777;
+}
+
+#helpButton {
+  background-color: #eee9d7;
+  height: 100px;
+  width: 100px;
+  font-size: 40px;
+  font-weight: 200px;
+  right: -15px;
+  color: #777777;
+}
+
+#startButton:hover, #stopButton:hover, #helpButton:hover {
+  color: #555555;
+}
+
+#directions {
+  background-color: #eee9d7;
+  height: 60px;
+  width: 500px;
+  border-radius: 70px;
+  top: 400;
+  position: fixed;
+  margin-left:830px;
+  margin-top: -250px;
+  box-shadow: 0 9px #999999;
+  font-size: 25px;
+  font-family: lucida console, monospace;
+  color: #777777;
+  padding: 35px;
+}
+
+#timer-text {
+  display: flex;
+  background-color: #eee9d7;
+  border-radius: 15px;
+  height: 100px;
+  width: 110px;
+  box-shadow: 0 9px #999999;
+  justify-content: center;
+  align-items: center;
+  font-size: 37.5px;
+  font-family: lucida console, monospace;
+  font-weight: 100px;
+  color: #777777;
+}
+.hidden {
+  display: none;
+}
+
+.dipped {
+  transform: translateY(3px);
+}
