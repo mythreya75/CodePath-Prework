@@ -100,7 +100,7 @@ the number of buttons present on the screen.
 
 ## License
 
-    Copyright [YOUR NAME]
+    Copyright Mythreya Vangapanu
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
