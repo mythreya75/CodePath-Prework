@@ -40,9 +40,13 @@ The following **additional** features are implemented:
 ## Video Walkthrough (GIF)
 
 If you recorded multiple GIFs for all the implemented features, you can add them here:
+* Example of toggling directions menu
 ![DirectionsMenu](https://user-images.githubusercontent.com/78658852/160687890-b8ff585c-49c0-45a4-8598-92290fbfb5a6.gif)
+* Example of a winning game 
 ![WinningGame](https://user-images.githubusercontent.com/78658852/160687973-985ad638-7d91-41f5-a75e-969613c50159.gif)
-![LosingGame](https://user-images.githubusercontent.com/78658852/160688040-fda7db86-2a97-43e4-8be5-0bcc8053e4b9.gif)
+* Example of a losing game
+![LosingGame](https://user-images.githubusercontent.com/78658852/160688689-58f1cf55-bf1b-4631-a093-7e800a38e69a.gif)
+
 
 ## Reflection Questions
 
