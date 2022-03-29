@@ -40,10 +40,9 @@ The following **additional** features are implemented:
 ## Video Walkthrough (GIF)
 
 If you recorded multiple GIFs for all the implemented features, you can add them here:
-![](gif1-link-here)
-![](gif2-link-here)
-![](gif3-link-here)
-![](gif4-link-here)
+![DirectionsMenu](https://user-images.githubusercontent.com/78658852/160687890-b8ff585c-49c0-45a4-8598-92290fbfb5a6.gif)
+![WinningGame](https://user-images.githubusercontent.com/78658852/160687973-985ad638-7d91-41f5-a75e-969613c50159.gif)
+![LosingGame](https://user-images.githubusercontent.com/78658852/160688040-fda7db86-2a97-43e4-8be5-0bcc8053e4b9.gif)
 
 ## Reflection Questions
 
